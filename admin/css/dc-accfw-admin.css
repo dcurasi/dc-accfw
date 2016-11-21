@@ -2,3 +2,10 @@
  * All of the CSS for your admin-specific functionality should be
  * included in this file.
  */
+.dc-select-width {
+	width: 50%;
+}
+
+.woocommerce_options_panel input.dc-radio-margin {
+	margin-left: 10px;
+}

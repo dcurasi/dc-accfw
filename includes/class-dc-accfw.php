@@ -153,6 +153,14 @@ class Dc_Accfw {
 
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
+		$this->loader->add_filter( 'woocommerce_api_coupon_response', $plugin_admin, 'dc_response_coupon', 10, 2 );
+		$this->loader->add_action( 'woocommerce_api_create_coupon', $plugin_admin, 'dc_coupon_create', 10, 2 );
+		$this->loader->add_action( 'woocommerce_api_edit_coupon', $plugin_admin, 'dc_coupon_edit', 10, 2 );
+		$this->loader->add_action( 'woocommerce_coupon_options_usage_restriction', $plugin_admin, 'create_admin_interface' );
+		$this->loader->add_action( 'woocommerce_coupon_options_save', $plugin_admin, 'dc_coupon_save_options' );
+		if ( !in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
+			$this->loader->add_action( 'admin_notices', $plugin_admin, 'error_notice' );
+		}
 
 	}
 
@@ -169,6 +177,10 @@ class Dc_Accfw {
 
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
+		$this->loader->add_action( 'woocommerce_coupon_loaded', $plugin_public, 'dc_loaded_coupon' );
+		$this->loader->add_filter( 'woocommerce_coupon_is_valid', $plugin_public, 'dc_is_valid', 10, 2 );
+		$this->loader->add_filter( 'woocommerce_coupon_error', $plugin_public, 'dc_get_error_coupon', 10, 3 );
+		$this->loader->add_action( 'woocommerce_after_checkout_form', $plugin_public, 'dc_update_checkout_on_payment_method' );
 
 	}
 

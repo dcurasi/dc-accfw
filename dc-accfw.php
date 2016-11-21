@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       Advanced Coupon Conditions for Woocommerce
  * Plugin URI:        https://github.com/dcurasi/dc-accfw
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       Advanced Coupon Condition for Woocommerce allows you to create coupons with advanced attributes.
  * Version:           1.0.0
  * Author:            Dario Curasì
  * Author URI:        https://github.com/dcurasi
