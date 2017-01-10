@@ -193,7 +193,7 @@ class Dc_Accfw_Admin {
 
 	public function error_notice() {
 		echo '<div class="notice notice-error is-dismissible">
-        		<p>Advanced Coupon Condition for Woocommerce is active but does not work. You need to install WooCommerce because the plugin is working properly.</p>
+        		<p>'.__('Advanced Coupon Condition for Woocommerce is active but does not work. You need to install WooCommerce because the plugin is working properly.', 'dc-accfw').'</p>
     		  </div>';
 	}
 

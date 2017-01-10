@@ -229,7 +229,7 @@ class Dc_Accfw_Public {
 	 */
 	public static function dc_get_error_coupon( $err, $err_code, $coupon ) {
 		if ( self::E_DC_WACC_INVALID == $err_code ) {
-			$err = sprintf( 'Sorry, coupon "%s" is not applicable.', $coupon->code );
+			$err = sprintf( __('Sorry, coupon "%s" is not applicable.', 'dc-accfw'), $coupon->code );
 		}
 
 		return $err;

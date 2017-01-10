@@ -1,9 +1,9 @@
 === Advanced Coupon Conditions for Woocommerce ===
 Contributors: dcurasi
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KZRGHFSGGRXU6
-Tags: woocommerce, coupon, woocommerce coupon, advanced, condition, coupon conditions, coupon advanced conditions, woocommerce advanced conditions, woocommerce advanced, e-commerce, shop, cart, checkout, woocommerce conditions, coupon advanced, coupon attributes, advanced attributes, conditions, woocommerce advanced coupon conditions, dcurasi, dc, advanced coupon conditions for woocommerce
+Tags: woocommerce, coupon, woocommerce coupon, advanced, condition, coupon conditions, coupon advanced conditions, woocommerce advanced conditions, woocommerce advanced, e-commerce, shop, cart, checkout, woocommerce conditions, coupon advanced, coupon attributes, advanced attributes, conditions, woocommerce advanced coupon conditions, dcurasi, dc, advanced coupon conditions for woocommerce, conditional, coupons, discount, discounts, woocommerce coupons
 Requires at least: 3.0.1
-Tested up to: 4.6.1
+Tested up to: 4.7
 Stable tag: 4.6.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
@@ -28,6 +28,9 @@ It is based on the [WordPress Plugin Boilerplate] (https://github.com/DevinVinso
 * English - UNITED KINGDOM
 
 
+**If you like the plugin, please give it a rating.**
+
+
 == Installation ==
 
 1. Unzip the downloaded zip file.
@@ -42,6 +45,9 @@ It is based on the [WordPress Plugin Boilerplate] (https://github.com/DevinVinso
 
 
 == Changelog ==
+
+= 1.0.1 - 10/01/17 =
+* New - Added Italian translation
 
 = 1.0 =
 * Initial public version

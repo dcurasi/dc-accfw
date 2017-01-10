@@ -1,11 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Advanced Coupon Conditions for Woocommerce\n"
-"POT-Creation-Date: 2017-01-08 14:35+0100\n"
-"PO-Revision-Date: 2017-01-08 14:37+0100\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2017-01-08 14:39+0100\n"
+"PO-Revision-Date: 2017-01-10 22:06+0100\n"
 "Language-Team: Dario Curasì <curasi.d87@gmail.com>\n"
-"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,6 +12,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e\n"
+"Last-Translator: \n"
+"Language: it_IT\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: admin/class-dc-accfw-admin.php:196
@@ -21,53 +21,62 @@ msgid ""
 "Advanced Coupon Condition for Woocommerce is active but does not work. You "
 "need to install WooCommerce because the plugin is working properly."
 msgstr ""
+"Advanced Coupon Condition for Woocommerce è attivo ma non funziona. È "
+"necessario installare Woocommerce affinché il plugin funzioni "
+"correttamente."
 
 #: admin/partials/dc-accfw-admin-display.php:21
 msgid "Payment methods"
-msgstr ""
+msgstr "Metodi di pagamento"
 
 #: admin/partials/dc-accfw-admin-display.php:22
 msgid "Any payment methods"
-msgstr ""
+msgstr "Qualsiasi metodo di pagamento"
 
 #: admin/partials/dc-accfw-admin-display.php:31
 msgid ""
 "List of allowed payment methods to check against the customer's payment "
 "method for the coupon to remain valid."
 msgstr ""
+"Lista dei metodi di pagamento che verranno confrontati con il metodo di "
+"pagamento del cliente affinché il coupon rimanga valido."
 
 #: admin/partials/dc-accfw-admin-display.php:37
 msgid "Billing countries"
-msgstr ""
+msgstr "Paesi di fatturazione"
 
 #: admin/partials/dc-accfw-admin-display.php:38
 #: admin/partials/dc-accfw-admin-display.php:52
 msgid "Any countries"
-msgstr ""
+msgstr "Qualsiasi paese"
 
 #: admin/partials/dc-accfw-admin-display.php:47
 msgid ""
 "List of allowed countries to check against the customer's billing country "
 "for the coupon to remain valid."
 msgstr ""
+"Lista dei paesi che verranno confrontati con il paese di fatturazione del "
+"cliente affinché il coupon rimanga valido."
 
 #: admin/partials/dc-accfw-admin-display.php:51
 msgid "Shipping countries"
-msgstr ""
+msgstr "Paesi di spedizione"
 
 #: admin/partials/dc-accfw-admin-display.php:61
 msgid ""
 "List of allowed countries to check against the customer's shipping country "
 "for the coupon to remain valid."
 msgstr ""
+"Lista dei paesi che verranno confrontati con il paese di spedizione del "
+"cliente affinché il coupon rimanga valido."
 
 #: admin/partials/dc-accfw-admin-display.php:65
 msgid "Postal Codes"
-msgstr ""
+msgstr "Codici Postali"
 
 #: admin/partials/dc-accfw-admin-display.php:66
 msgid "Any postal codes"
-msgstr ""
+msgstr "Qualsiasi codice postale"
 
 #: admin/partials/dc-accfw-admin-display.php:67
 msgid ""
@@ -76,16 +85,21 @@ msgid ""
 "g: 90100|90133 to include all the codes between 90100 and 90133. Check "
 "\"exclude\" to include all postal codes except those inserted"
 msgstr ""
+"Lista dei codici postali che verranno confrontati con il codice postale "
+"del cliente. Separate i codici postali da virgole. È possibile inserire "
+"intervalli di codici postali. ad es: 90100|90133 per includere tutti i "
+"codici tra 90100 e 90133. Selezionate \"escludi\" per includere tutti i "
+"codici postali ad eccezione di quelli inseriti."
 
 #: admin/partials/dc-accfw-admin-display.php:68
 msgid "include"
-msgstr ""
+msgstr "includi"
 
 #: admin/partials/dc-accfw-admin-display.php:69
 msgid "exclude"
-msgstr ""
+msgstr "escludi"
 
 #: public/class-dc-accfw-public.php:232
 #, php-format
 msgid "Sorry, coupon \"%s\" is not applicable."
-msgstr ""
+msgstr "Siamo spiacenti, il coupon \"%s\" non è applicabile."
